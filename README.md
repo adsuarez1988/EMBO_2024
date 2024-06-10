@@ -1,3 +1,3 @@
 # EMBO_2024
 practical
-this is a a try
+this is a try
