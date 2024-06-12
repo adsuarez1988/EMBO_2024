@@ -12,8 +12,8 @@ demography.add_population(name="Nacn", initial_size=7_000_000)
 
 ## migracion ##
 
-demography.set.migration_rate(source="N1", dest="N2", rate=0.1)
-demography.set.migration_rate(source="N2", dest="N1", rate=0.1)
+demography.set_migration_rate(source="N1", dest="N2", rate=0.1)
+demography.set_migration_rate(source="N2", dest="N1", rate=0.1)
 
 ## setting split time ##
 demography.add_population_split(time=1000, derived=["N1", "N2"], ancestral="Nacn") # split 1k generations ago
